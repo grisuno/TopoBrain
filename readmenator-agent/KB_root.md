@@ -1,0 +1,95 @@
+# Subsystem: root
+
+## app.py
+- Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisun0[at]proton[dot]me Fecha de creación: 30/11/2025 Licencia: GPL 
+- Language: py
+- Symbols:
+  - `Config` (class, line 41) `class Config`
+  - `seed_everything` (method, line 131) `def seed_everything(seed)`
+  - `ResourceMonitor` (class, line 145) `class ResourceMonitor`
+  - `PrefrontalOrchestrator` (class, line 190) `class PrefrontalOrchestrator(Module)`
+  - `TopologyMetrics` (class, line 346) `class TopologyMetrics`
+  - `TopologicalHealthSovereignty` (class, line 355) `class TopologicalHealthSovereignty`
+  - `CheckpointManager` (class, line 441) `class CheckpointManager`
+  - `get_dataloaders` (method, line 493) `def get_dataloaders(config)`
+  - `SupConLoss` (class, line 537) `class SupConLoss(Module)`
+  - `AsymmetricPredictiveErrorCell` (class, line 554) `class AsymmetricPredictiveErrorCell(Module)`
+  - `LearnableAbsenceGating` (class, line 574) `class LearnableAbsenceGating(Module)`
+  - `SymbioticBasisRefinement` (class, line 592) `class SymbioticBasisRefinement(Module)`
+  - `ContinuumMemoryCell` (class, line 637) `class ContinuumMemoryCell(Module)`
+  - `AdaptiveCombinatorialComplexLayer` (class, line 762) `class AdaptiveCombinatorialComplexLayer(Module)`
+  - `ResidualBlock` (class, line 958) `class ResidualBlock(Module)`
+  - `VisualCortex` (class, line 979) `class VisualCortex(Module)`
+  - `TopoBrainV24` (class, line 1034) `class TopoBrainV24(Module)`
+  - `save_topology_visualization` (method, line 1418) `def save_topology_visualization(model, epoch, run_name)`
+  - `save_node_importance_viz` (method, line 1462) `def save_node_importance_viz(model, epoch, run_name)`
+  - `analyze_topology_clustering` (method, line 1484) `def analyze_topology_clustering(model, run_name)`
+  - `analyze_topology_flow` (method, line 1523) `def analyze_topology_flow(model, dataloader, run_name, num_samples)`
+  - `visualize_topology_as_graph` (method, line 1589) `def visualize_topology_as_graph(model, run_name, threshold)`
+  - `analyze_topology_evolution` (method, line 1641) `def analyze_topology_evolution(run_name)`
+  - `comprehensive_topology_analysis` (method, line 1702) `def comprehensive_topology_analysis(model, dataloader, run_name)`
+  - `run_ablation_study` (method, line 1725) `def run_ablation_study()`
+  - `visualize_memory_evolution` (method, line 1826) `def visualize_memory_evolution(model, epoch, run_name)`
+  - `analyze_gradient_flow` (method, line 1917) `def analyze_gradient_flow(model, epoch, run_name)`
+  - `make_adversarial_pgd` (method, line 1984) `def make_adversarial_pgd(model, x, y, eps, steps, dataset_name, controls, prev_states)`
+  - `evaluate` (method, line 2062) `def evaluate(model, loader, config, adversarial, controls)`
+  - `train_epoch` (method, line 2134) `def train_epoch(model, loader, optimizer, opt_topo, config, epoch, monitor, scaler, sparsity_lambda)`
+  - `train_model` (method, line 2359) `def train_model(config, run_name)`
+  - `main` (method, line 2530) `def main()`
+  - `__post_init__` (method, line 101) `def __post_init__(self)`
+  - `to_dict` (method, line 107) `def to_dict(self)`
+  - `get_supcon_lambda` (method, line 110) `def get_supcon_lambda(self, epoch)`
+  - `get_sparsity_lambda` (method, line 116) `def get_sparsity_lambda(self, epoch)`
+  - `get_memory_gb` (method, line 147) `def get_memory_gb()`
+  - `get_gpu_memory_gb` (method, line 152) `def get_gpu_memory_gb()`
+  - `log` (method, line 158) `def log(prefix)`
+  - `clear_cache` (method, line 165) `def clear_cache()`
+  - `check_limit` (method, line 171) `def check_limit(limit_gb, abort_on_limit)`
+  - `__init__` (method, line 197) `def __init__(self, config)`
+  - `forward` (method, line 234) `def forward(self, metrics_dict)`
+  - `detach_state` (method, line 334) `def detach_state(self)`
+  - `reset_context` (method, line 339) `def reset_context(self)`
+  - `__init__` (method, line 362) `def __init__(self, model, config, epsilon_c)`
+  - `_analyze_matrix` (method, line 368) `def _analyze_matrix(self, weight_matrix, name)`
+  - `calculate` (method, line 414) `def calculate(self, epoch)`
+  - `get_critical_summary` (method, line 431) `def get_critical_summary(self)`
+  - `__init__` (method, line 443) `def __init__(self, run_name)`
+  - `save` (method, line 448) `def save(self, data, name)`
+  - `load` (method, line 476) `def load(self, name)`
+  - `__init__` (method, line 538) `def __init__(self, temperature)`
+  - `forward` (method, line 541) `def forward(self, features, labels)`
+  - `__init__` (method, line 555) `def __init__(self, dim, use_spectral)`
+  - `forward` (method, line 565) `def forward(self, input_signal, prediction)`
+  - `__init__` (method, line 575) `def __init__(self, dim, min_gate)`
+  - `forward` (method, line 585) `def forward(self, x_sensory, x_prediction)`
+  - `__init__` (method, line 593) `def __init__(self, dim, num_atoms)`
+  - `_maintain_orthogonality` (method, line 607) `def _maintain_orthogonality(self)`
+  - `forward` (method, line 612) `def forward(self, x)`
+  - `__init__` (method, line 638) `def __init__(self, input_dim, hidden_dim, fast_lr, forget_rate, use_spectral)`
+  - `forward` (method, line 687) `def forward(self, x, state_M, controls)`
+  - `__init__` (method, line 763) `def __init__(self, in_dim, hid_dim, num_nodes, config, layer_type, layer_idx)`
+  - `invalidate_sparse_cache` (method, line 801) `def invalidate_sparse_cache(self)`
+  - `_validate_and_fix_state` (method, line 804) `def _validate_and_fix_state(self, state, expected_shape, batch_size, device, state_name)`
+  - `get_node_importance` (method, line 823) `def get_node_importance(self)`
+  - `forward` (method, line 829) `def forward(self, x_nodes, adjacency, incidence, adj_sparse, inc_sparse, prev_state_node, prev_state_cell, controls)`
+  - `__init__` (method, line 959) `def __init__(self, in_channels, out_channels, stride)`
+  - `forward` (method, line 973) `def forward(self, x)`
+  - `__init__` (method, line 980) `def __init__(self, output_dim, grid_size)`
+  - `forward` (method, line 1006) `def forward(self, x)`
+  - `__init__` (method, line 1035) `def __init__(self, config, in_channels)`
+  - `initialize_memories` (method, line 1099) `def initialize_memories(self, dataloader)`
+  - `_initialize_layer_memory` (method, line 1136) `def _initialize_layer_memory(self, cell, x_input, name)`
+  - `consolidate_semantic_memories` (method, line 1153) `def consolidate_semantic_memories(self)`
+  - `set_epoch` (method, line 1181) `def set_epoch(self, epoch)`
+  - `calculate_ortho_loss` (method, line 1186) `def calculate_ortho_loss(self, ortho_deviation, controls)`
+  - `calculate_topology_diversity_loss` (method, line 1192) `def calculate_topology_diversity_loss(self, controls)`
+  - `_init_grid_topology` (method, line 1205) `def _init_grid_topology(self, N)`
+  - `get_topology` (method, line 1227) `def get_topology(self, return_sparse)`
+  - `forward` (method, line 1238) `def forward(self, x, prev_states, controls)`
+  - `prune_topology` (method, line 1310) `def prune_topology(self, controls)`
+  - `warmup_topo` (method, line 2393) `def warmup_topo(epoch)`
+
+## install.sh
+- Layer: utility
+- Language: sh
