@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisun0[at]proton[dot]me Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisun0[at]proton[dot]me Fecha de creación: 30/11/2025 Licencia: GPL 
 - Language: py
 - Symbols:
   - `Config` (class, line 41) `class Config`
